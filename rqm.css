@@ -2,7 +2,7 @@ body {
   background-image: url(mountain_view.jpg);
   background-size: 100%;
   overflow-x: hidden;
-  font-family: "Adobe Caslon Pro", serif;
+  /*font-family: "Adobe Caslon Pro", serif;*/
   border: 4px solid lightpink;
   height: 95vh;
   position: relative;
@@ -15,12 +15,12 @@ body {
   margin: 40px auto;
   /*background-color: cyan;*/
   box-sizing: border-box;
-  font-family: Georgia, "Times New Roman", Serif;
+  /*font-family: Georgia, "Times New Roman", Serif;*/
 }
 .clock {
   width: 100%;
   height: 30%;
-  border: 3px solid lightpink;
+  border-bottom: 5px solid lightpink;
 }
 .quote {
   /*background-color: lightblue;*/
@@ -71,19 +71,27 @@ a:hover {
   opacity: .7;
   text-shadow: 2px 0 0 lightpink;
 }
-.time {
-  height: 50%;
-  background-color: lightgreen;
-}
 .date {
-  height: 50%;
-  border: 2px solid black;
+  height: 40%;
+  box-sizing: border-box;
 }
 #date-text {
   margin: 0;
   padding-top: 1em;
   font-size: 2em;
-  text-shadow: 1px 0 0 lightpink;
+  text-shadow: 2px 0 0 lightpink;
 }
+.time {
+  height: 60%;
+  /*background-color: lightgreen;*/
+  box-shadow: border-box;
+}
+#time-text {
+  margin: 0px;
+  padding-top: 0.5em;
+  font-size: 3em;
+  text-shadow: 4px 0 0 lightpink;
+}
+
 
 
