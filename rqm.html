@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="rqm.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Inspiration</title>
 </head>
-<body onLoad="displayDate(); displayTime();">
+<body onLoad="displayDate(); displayTime(); displayQuote();">
     <div class="wrap">
         <div class="clock">
             <div class="date">
-                <p id="date-text">Good Day :-)</p>
+                <p id="date-text">Welcome :^)</p>
             </div>
             <div class="time">
                 <p id="time-text"></p>
             </div>
         </div>
-        <div class="quote">
-            "The world will only know true happiness when people look toward their similarities rather than their differences."
+        <div id="quote-text" class="quote">
         </div>
         <div class="aux">
-            <button >New Quote</button>
+            <button onclick="displayQuote()">New Quote</button>
             <a href="https://twitter.com/share" target="_blank" class="twitter-share-button" data-text="HELLO" data-show-count="false"><i class="fa fa-twitter" aria-hidden="true"></i></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>

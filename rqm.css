@@ -28,11 +28,13 @@ body {
   height: 50%;
   padding-top: .5em;
   padding-bottom: .5em;
-  font-size: 2vw;
+  font-size: 2.3em;
   color: black;
   overflow: auto;
   text-shadow: 2px 0 0 lightpink;
   box-sizing: border-box;
+  text-transform: lowercase;
+  font-variant: small-caps;
 }
 .aux {
   /*background-color: lightgreen;*/
