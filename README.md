@@ -1,1 +1,4 @@
-# RandomQuoteMachine
+# RandomQuoteMachine            
+
+
+![Display Screen](display.png)
